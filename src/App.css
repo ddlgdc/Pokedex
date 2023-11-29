@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Pokecard {
+  display: inline-block;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+}
+
+.PokemonInfo {
+  text-align: center;
+}
+
+.Pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.Title {
+  text-align: center;
+  color: #666; 
+  margin-bottom: 20px;
+  font-size: 2em;
+}
